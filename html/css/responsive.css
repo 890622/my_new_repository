@@ -1,0 +1,246 @@
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+
+	/****************************
+	NAVIGATION
+	****************************/
+
+
+	nav ul {
+		margin: 0 5px;
+	}
+
+	nav li {
+		border: 1px white solid;
+	}
+
+	nav a {
+		padding-left: 10px;
+		padding-right: 10px;
+		color: #f5f5f5;
+		font-family: Arial;
+		text-decoration: none;
+	}
+
+
+
+
+
+
+	/****************************
+	PAGE: INDEX
+	****************************/
+
+
+	#home_header_image {
+		padding-top: 30%; 
+	}
+
+	#home_header_image_box {
+		height: 300px;
+		width: 600px;
+	}
+
+	#home_header_image_box h1{
+		font-size: 45px;
+		line-height: 90px;
+	}
+
+	#home_header_image_box p{
+		font-size: 15px;
+		margin-top: -50px;
+		margin-right: 65px; 
+	}
+
+	input#search {
+		font-size: 20px;
+		height: 60px;
+		padding-left: 20px;
+	}
+
+	input#button {
+		font-size: 20px;
+		height: 60px;
+	}
+
+
+
+
+
+
+	/**************************** 
+	PAGES
+	****************************/
+
+
+	.header_image {
+		height: 400px;
+
+	}
+
+	.header_image_textbox {
+		top: 120px;
+		max-width: 90%;
+	}
+
+	.header_image_textbox p {
+		font-size: 80px;
+	}
+
+
+
+
+
+
+	/****************************
+	PAGE: RECEPT2
+	****************************/
+
+
+
+	#gallery li {
+		float: left;
+		width: 45%;
+	}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+	
+
+	/****************************
+	NAVIGATION
+	****************************/
+
+
+	nav {
+		position: relative;
+	}
+
+	nav p {
+	    text-shadow: 2px 2px #1f1f1f;
+	    padding-top: 15px;
+	    margin-bottom: 0;
+	}
+
+	nav ul {
+		width: 80%;
+		height: 60px;
+	}
+
+	nav li {
+	}
+
+	nav a {
+		padding-left: 5px;
+		padding-right: 5px;
+	}		
+	
+
+
+
+
+
+	/****************************
+	PAGE: INDEX
+	****************************/
+
+
+	#home_header_image {
+	padding-top: 30%; 
+	}
+
+	#home_header_image_box {
+		height: 200px;
+		width: 380px;
+	}
+
+	#home_header_image_box h1{
+		font-size: 30px;
+		line-height: 90px;
+	}
+
+	#home_header_image_box p{
+		font-size: 15px;
+		margin-top: -50px;
+		margin-right: 65px; 
+	}
+
+	input#search {
+		font-size: 20px;
+		height: 60px;
+		padding-left: 20px;
+	}
+
+	input#button {
+		font-size: 20px;
+		height: 40px;
+		width: 60px;
+	}
+
+
+
+
+
+
+/****************************
+	PAGES
+	****************************/	
+
+
+	.header_image {
+		height: 300px;
+	}
+
+	.header_image_textbox {
+		height: 140px;
+		top: 40px;
+	}
+
+	.header_image_textbox p {
+		font-size: 50px;
+	}
+
+
+
+
+
+	
+	/****************************
+	PAGE: RECEPT2
+	****************************/	
+
+
+	#gallery li {
+		float: left;
+		width: 95%;
+	}
+
+
+
+
+
+
+	
+	/****************************
+	PAGE: KONTAKT
+	****************************/
+
+
+	#primary, #secondary {
+		float: left;
+		width: 90%;
+		margin: 5%;
+	}
