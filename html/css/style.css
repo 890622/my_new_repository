@@ -214,77 +214,54 @@ input#button {
 	PAGE: RECEPT
 	****************************/
 
-.body_container {
-	position: relative;
-	height: 100%;
-	width: auto;
+.wrapper {
+	max-width: 1600px;
+	max-height: 2000px;
 	margin: 0 auto;
-	text-align: center;
-	padding-top: 100px;
-	/*border: 1px black dashed;*/
+	padding: 0 auto;
+	/*border: 5px red dashed;*/
 }
 
-.recipe_div {
-	height: 500px;
-	width: 400px;
-	display: inline-block;
-	text-align: left;
-	margin: 30px;
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li img {
+	max-width: 100%;
+}
+
+#gallery li a {
+	text-decoration: none;
+}
+
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#gallery li p {
+	margin: 5%;
+}
+
+
+#gallery li {
+	float: left;
+	width: 28.3333%;
+	height: 550px;
+	margin: 2.5%;
+	box-sizing: border-box;
 	border: 2px solid rgba(237, 237, 237, 0.95);
 	border-radius: 2px;
 	border-radius: 5px;
-	overflow: hidden;
 }
 
-#rec_pic1 {
-	position: relative;
-	width: 400px;
-	height: 250px;
-	display: block;
-	background-image: url(Pictures/bruschetta.jpg);
-	background-size: cover;
-	margin: 0 auto;
-}
-
-#rec_text1 {
-	padding: 20px;
-	font-family: cambria;
-	overflow: hidden;
-	/*border: 2px black solid; */
-}
-
-#rec_pic2 {
-	position: relative;
-	width: 400px;
-	height: 250px;
-	display: block;
-	background-image: url(Pictures/eggplant.jpg);
-	background-size: cover;
-	margin: 0 auto;
-}
-
-#rec_text2 {
-	padding: 20px;
-	font-family: cambria;
-	overflow: hidden;
-	/*border: 2px black solid; */
-}
-
-#rec_pic3 {
-	position: relative;
-	width: 400px;
-	height: 250px;
-	display: block;
-	background-image: url(Pictures/cupcakes.jpg);
-	background-size: cover;
-	margin: 0 auto;
-}
-
-#rec_text3 {
-	padding: 20px;
-	font-family: cambria;
-	overflow: hidden;
-	/*border: 2px black solid; */
+#gallery li:nth-child(3n+4) {
+	clear: left;
 }
 
 
@@ -379,80 +356,24 @@ input#button {
 
 
 	/****************************
-	PAGE: RECEPT 2
-	****************************/
-
-.wrapper {
-	max-width: 1600px;
-	max-height: 2000px;
-	margin: 0 auto;
-	padding: 0 auto;
-	/*border: 5px red dashed;*/
-}
-
-#gallery {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#gallery li img {
-	max-width: 100%;
-}
-
-#gallery li a {
-	text-decoration: none;
-}
-
-
-#gallery li a p {
-	margin: 0;
-	padding: 5%;
-	font-size: 1.2em;
-	font-weight: bold;
-}
-
-#gallery li p {
-	margin: 5%;
-}
-
-
-#gallery li {
-	float: left;
-	width: 28.3333%;
-	margin: 2.5%;
-	box-sizing: border-box;
-	border: 2px solid rgba(237, 237, 237, 0.95);
-	border-radius: 2px;
-	border-radius: 5px;
-}
-
-#gallery li:nth-child(4n) {
-	clear: both;
-}
-
-
-
-
-
-
-	/****************************
 	PAGE: KONTAKT
 	****************************/
 
 #primary, #secondary {
 	text-align: left;
-	margin: 0 2.5%;
+	margin-top: 50px;
 }
 
 #primary {
 	float: left;
-	width: 50%;
+	width: 30%;
+	margin-left: 20%;
 }
 
 #secondary {
 	float: right;
-	width: 40%;
+	width: 20%;
+	margin-right: 20%;
 }
 
 #secondary li {
