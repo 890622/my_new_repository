@@ -43,29 +43,30 @@
 	}
 
 	#home_header_image_box {
-		height: 300px;
-		width: 600px;
+		height: auto;
+		width: 80%;
+		padding-bottom: 30px;
 	}
 
 	#home_header_image_box h1{
-		font-size: 45px;
+		font-size: 6vw;
 		line-height: 90px;
 	}
 
 	#home_header_image_box p{
-		font-size: 15px;
+		font-size: 2vw;
 		margin-top: -50px;
 		margin-right: 65px; 
 	}
 
 	input#search {
-		font-size: 20px;
+		font-size: 2.5vw;
 		height: 60px;
 		padding-left: 20px;
 	}
 
 	input#button {
-		font-size: 20px;
+		font-size: 2.7vw;
 		height: 60px;
 	}
 
@@ -99,7 +100,7 @@
 
 
 	/****************************
-	PAGE: RECEPT2
+	PAGE: RECEPT
 	****************************/
 
 
@@ -107,7 +108,41 @@
 	#gallery li {
 		float: left;
 		width: 45%;
+		min-height: 600px;
 	}
+
+
+	#gallery li:nth-child(3n+4) {
+	clear: right;
+	}
+
+
+		/****************************
+	PAGE: KONTAKT
+	****************************/
+
+	#primary, #secondary {
+		margin-top: 20px;
+	}
+
+	#primary {
+		width: 45%;
+		margin-left: 10%;
+	}
+
+	#secondary {
+		float: right;
+		width: 30%;
+		margin-right: 10%;
+	}
+
+	#secondary li {
+		list-style: none;
+		text-align: left;
+		margin-left: -40px;
+	}
+
+
 
 
 
@@ -164,7 +199,7 @@
 
 	#home_header_image_box {
 		height: 200px;
-		width: 380px;
+		width: 90%;
 	}
 
 	#home_header_image_box h1{
@@ -219,13 +254,15 @@
 
 	
 	/****************************
-	PAGE: RECEPT2
-	****************************/	
+	PAGE: RECEPT
+	****************************/
+
 
 
 	#gallery li {
 		float: left;
-		width: 95%;
+		width: 90%;
+		height: auto;
 	}
 
 
@@ -233,7 +270,6 @@
 
 
 
-	
 	/****************************
 	PAGE: KONTAKT
 	****************************/
